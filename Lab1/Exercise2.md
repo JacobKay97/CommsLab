@@ -18,4 +18,6 @@ Ex2.1.PNG
 
 ###Tasks
 
-####
+Remember to add things to this
+
+Explain why standard deviation block
