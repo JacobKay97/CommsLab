@@ -1,4 +1,4 @@
-#Exercise2
+#Exercise 2
 
 ##Implementation of CLT 
 
@@ -20,4 +20,6 @@ Ex2.1.PNG
 
 Remember to add things to this
 
+
+![equation](http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7B%20%20%5Coverline%7BX%7D%20-%20%5Cmu%20%20%7D%7B%20%5Cfrac%7B%20%5Csigma%7D%7B%20%5Csqrt%7Bn%7D%20%7D%20%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0%22%20align=%22center%22%20border=%220%22%20alt=%22\frac{%20\overline{X}%20-%20\mu%20}{%20\frac{%20\sigma}{%20\sqrt{n}%20})
 Explain why standard deviation block
