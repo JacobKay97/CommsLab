@@ -28,7 +28,7 @@ Ex2.1.PNG
 
  * Assumed the Random Number Generator block had a uniform distribution of [0,1] which gives population mean standard deviation as below
  
-![equation2](http://www.sciweavers.org/tex2img.php?eq=%5Cmu%20%3D%20%20%5Cfrac%7B1%7D%7B2%7D%28a%2Bb%29%20%3D%20%5Cfrac%7B1%7D%7B2%7D%281%2B0%29%20%3D%20%5Cfrac%7B1%7D%7B2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![equation2](http://www.sciweavers.org/tex2img.php?eq=%5Cmu%20%3D%20%20%5Cfrac%7B1%7D%7B2%7D%28a%2Bb%29%20%3D%20%5Cfrac%7B1%7D%7B2%7D%280%2B1%29%20%3D%20%5Cfrac%7B1%7D%7B2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 ![equation3](http://www.sciweavers.org/tex2img.php?eq=%20%5Csigma%20%3D%20%20%5Csqrt%7B%20%5Cfrac%7B1%7D%7B12%7D%20%28b-a%29%5E2%7D%20%3D%20%5Csqrt%7B%20%5Cfrac%7B1%7D%7B12%7D%20%281-0%29%5E2%7D%20%3D%20%5Csqrt%7B%20%5Cfrac%7B1%7D%7B12%7D%20%281%29%5E2%7D%20%3D%20%20%5Csqrt%7B%20%5Cfrac%7B1%7D%7B12%7D%7D%20%20%20%5Capprox%200.28868&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
