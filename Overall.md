@@ -43,9 +43,9 @@
  * Assumed the Random Number Generator block had a uniform distribution of [0,1] which gives population mean standard deviation as below
  
 
-![Equation 2](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/eq3.png)
+![Equation 2](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/eq2.jpg)
 
-![Equation 3](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/eq3.png)
+![Equation 3](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/eq2.jpg)
 
  * This was implemeneted by subtracting 0.5 from the sample mean, then dividing by the population standard dev. (above) divided by SQRT(n) (where n is 100)
  * The rest of the code was not changed
