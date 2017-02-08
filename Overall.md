@@ -33,24 +33,25 @@
 
  * Control to stop afer 1000 iterations was added by using a => block comparing the while loop count with a constant of 1000 and feeding that into the stop condition.
 
-![Exercise 2.2](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/Ex2.2.png)
+![Exercise 2.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.2.png)
+![Exercise 2.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.2.png)
 
  * To convert into a standard normal distribution: N(0, 1), the equation below was used
 
-![Equation 1](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/eq1.png)
+![Equation 1](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/eq1.png)
 
 
  * Assumed the Random Number Generator block had a uniform distribution of [0,1] which gives population mean standard deviation as below
  
 
-![Equation 2](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/eq2.jpg)
+![Equation 2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/eq2.jpg)
 
-![Equation 3](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/eq2.jpg)
+![Equation 3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/eq2.jpg)
 
  * This was implemeneted by subtracting 0.5 from the sample mean, then dividing by the population standard dev. (above) divided by SQRT(n) (where n is 100)
  * The rest of the code was not changed
  
-![Exercise 2.3](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/Ex2.3.png)
+![Exercise 2.3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.3.png)
 
 
 ##Exercise 3
