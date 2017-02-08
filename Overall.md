@@ -11,6 +11,8 @@
  
 ###Include EX1.PNG
 
+![Exercise 1](https://github.com/JacobKay97/CommsLab/blob/master/pics/Ex1.png)
+
 ##Exercise 2
 
 ###Implementation of CLT 
