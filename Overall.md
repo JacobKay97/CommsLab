@@ -7,11 +7,8 @@
  * Interpreted as Temperatures in F, converted to C
  * Got average of whole array (each letter converted to one element of byte array)  
  * Got to understand the UI
- 
- 
-###Include EX1.PNG
 
-![Exercise 1](https://github.com/JacobKay97/CommsLab/blob/master/pics/Ex1.png)
+![Exercise 1](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/Ex1.png)
 
 ##Exercise 2
 
@@ -29,30 +26,32 @@
   * This ensures the data is transferred from one iteration to the other and the array grows
  * Tested with 10 milliseconds to wait, and 100 bins
 
-####Ex2.1.PNG
+![Exercise 2.1](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/Ex2.1.png)
+
 
 ####Tasks
 
  * Control to stop afer 1000 iterations was added by using a => block comparing the while loop count with a constant of 1000 and feeding that into the stop condition.
 
-####EX2.2.PNG
+![Exercise 2.2](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/Ex2.2.png)
 
  * To convert into a standard normal distribution: N(0, 1), the equation below was used
 
-####Eq1
+![Equation 1](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/eq1.png)
 
 
  * Assumed the Random Number Generator block had a uniform distribution of [0,1] which gives population mean standard deviation as below
  
-####Eq2
 
-####Eq3
+![Equation 2](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/eq3.png)
 
+![Equation 3](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/eq3.png)
 
  * This was implemeneted by subtracting 0.5 from the sample mean, then dividing by the population standard dev. (above) divided by SQRT(n) (where n is 100)
  * The rest of the code was not changed
  
-####Ex2.3.PNG when fixed
+![Exercise 2.3](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/Ex2.3.png)
+
 
 ##Exercise 3
 
@@ -67,6 +66,7 @@
 
  * Filter changed to a bandpass filter with cut off frequencies of 25 and 35
  * This let mostly only the sine wave at 30Hz through
+ * Along with a transient of course.
  
 ####Ex3.3.png
 
