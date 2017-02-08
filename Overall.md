@@ -8,7 +8,7 @@
  * Got average of whole array (each letter converted to one element of byte array)  
  * Got to understand the UI
 
-![Exercise 1](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/Ex1.png)
+![Exercise 1](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex1.png)
 
 ##Exercise 2
 
