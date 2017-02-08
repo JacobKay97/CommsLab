@@ -26,7 +26,7 @@
   * This ensures the data is transferred from one iteration to the other and the array grows
  * Tested with 10 milliseconds to wait, and 100 bins
 
-![Exercise 2.1](https://github.com/JacobKay97/CommsLab/tree/master/Lab1/Ex2.1.png)
+![Exercise 2.1](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.1.png)
 
 
 ####Tasks
