@@ -1,0 +1,13 @@
+Original Message \\
+Let \ m(t)= A_{m}\cos(2\pi f_{m}t)\\
+x(t) = [A_{c}+m(t)]\cos(2 \pi f_{c} t)\\
+Multiplying \ by\ carrier: \\
+y(t) = [A_{c}+m(t)]\cos(2 \pi f_{c} t)A_{c}cos(2 \pi f_{c} t)\\
+Double \ angle \ formula \ leads \ to \\
+
+y(t) = [A_{c}+m(t)]\frac{1}{2}A_{c}( 1 + cos(4 \pi f_{c} t))\\
+
+y(t) = \frac{1}{2}[A_{c}+m(t)]A_{c} + \frac{1}{2}[A_{c}+m(t)]cos(4 \pi f_{c} t)\\
+Low \ pass \ filter \ removes \ cosine term \ leaving \\
+
+y(t) = \frac{A_{c}}{2}[A_{c}+m(t)]
