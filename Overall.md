@@ -46,7 +46,7 @@
 
 ![Equation 2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/eq2.jpg)
 
-![Equation 3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/eq2.jpg)
+![Equation 3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/eq3.jpg)
 
  * This was implemeneted by subtracting 0.5 from the sample mean, then dividing by the population standard dev. (above) divided by SQRT(n) (where n is 100)
  * The rest of the code was not changed
