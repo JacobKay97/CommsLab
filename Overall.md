@@ -154,7 +154,8 @@
    * Or normalise carrier, but that was more wiring so opted for passing A_c through
 
 Maths behind coherant detection
-![eq1 ](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/eq1.png)
+
+![eq1](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/eq1.png)
 
 ###Enevelope Detector
 
