@@ -149,6 +149,7 @@
 
  * Made coherant Demodulator
  * Scaling issues
+ * Made into subVI
  * Have to multiply demodulated signal by 2
   * However input carrier is not normalised, so have to divide by the amplitude of carrier
   * Or normalise carrier, but that was more wiring so opted for passing A_c through
@@ -169,6 +170,7 @@
  * Aliasing issues when mu => 1
  * Needed to pass through all the waveform properties from Waveform Properties to Build Waveform
   * Forgot so had issues building waveform 
+ * Made into subVI
   
 ####Maths behind it
 
@@ -188,18 +190,30 @@
 
 ##Exercise 3
 
- * Had a fuck tonne of issues, look back at exercise 2 for fixes
+* Connected together the modulator  with both coherant and envelope detectors
+* Worked on first attempt
  
-###ex3.png
+**Block diagram for AM**
+![ex3](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex3.PNG)
  
 ###Changing mu
 
  * Coherant detection worked for all values 
  * Envelope detection breaks when A_m > A_c
  * Which occurs because the envelope detector relies on the signal being on 'top' of the carrier, so it appears after rectification
+  * get loss of information
+  * Envelope is only the positive half of the wave, so when A_m > A_c; (A_c + A_m) < 0  so the modulated signal no longer 'rides' on top of the carrier... (Unable to explain in better words..)
 
 
-### ex31/b/c/d.png
+**mu=0.5**
+![ex3a](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex3a.PNG)
+**mu=1**
+![ex3b](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex3b.PNG)
+**mu=1.5**
+![ex3c](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex3c.PNG)
+**mu=2**
+![ex3d](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex3d.PNG)
+
 
 
 ##Exercise 4
@@ -221,3 +235,24 @@
  * Configures signal paramaters, (Gain, F_c, IQ rate)
  * Does coherant demodulation
  
+ 
+#### Transmission of 5kHz signal
+
+**Transmit panel**
+![ex4a-tx](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex4a-tx.PNG)
+**Recieve panel**
+![ex4a-rx](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex4a-rx.PNG)
+
+
+#### Noise
+
+ * Changed modulation index
+ 
+**Modulation index = 0.1 - signal very noisy**
+![ex4b-rx-mu0.1-noise](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex4b-rx-mu0.1-noise.PNG)
+**Modulation index = 0.75 - quite noisy**
+![ex4b mu0.75](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex4b-rx-mu0.75-noise-zoomed.PNG)
+**Modulation index = 1.5 - not noisy**
+![ex4b mu 1](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex4b-rx-mu1-noise.PNG)
+**Modulation index = 5 - noisy??**
+![ex4b mu 5](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex4b-rx-mu5-noise.PNG)
