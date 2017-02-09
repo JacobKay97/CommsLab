@@ -134,11 +134,11 @@ Mu = 1.5
   * Loss of information - unable to get full information back
 
 1kHz
-![Exercise 1.4a](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.4a.png)
+![Exercise 1.4a](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex1.4a.png)
 2kHz
-![Exercise 1.4b](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.4b.png)
+![Exercise 1.4b](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex1.4b.png)
 5kHz
-![Exercise 1.4c](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.4c.png)
+![Exercise 1.4c](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex1.4c.png)
 
 
 ##Exercise 2
