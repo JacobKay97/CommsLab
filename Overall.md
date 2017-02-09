@@ -151,18 +151,39 @@
  * Scaling issues
  * Have to multiply demodulated signal by 2
   * However input carrier is not normalised, so have to divide by the amplitude of carrier
-   * Or normalise carrier, but that was more wiring so opted for passing A_c through
+  * Or normalise carrier, but that was more wiring so opted for passing A_c through
+ * Remove DC value as it is the 0.5(A_c^2) term
 
-Maths behind coherant detection
+**Maths behind coherant detection**
 
 ![eq1](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/eq1.png)
+
+
+**Coherant detector block diagram**
+![ex2a](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex2a.PNG)
+
 
 ###Enevelope Detector
 
  * Made envelope detector
- * Hopefully it works
-  * Aliasing
+ * Aliasing issues when mu => 1
  * Needed to pass through all the waveform properties from Waveform Properties to Build Waveform
+  * Forgot so had issues building waveform 
+  
+####Maths behind it
+
+ * Multiply by pi because rectifier scales it down by pi
+ * Turn waveform into an array
+ * Rectify using a loop and case statement
+ * This gives just the top half of the modulated signal which has the message riding on it
+ * Low pass filter will get rid of the carrier frequency (mathematically) as message has a lower frequency
+  * In actual physical implementation, RC filter is used, so capacitor basically 'traces' (for lack of a better word) and 'fills in the gaps' to recover the message signal
+ * DC term has to then be removed, and message signal is recovered
+ 
+**Block diagram for envelope detector**
+![ex2b](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex2b.PNG)
+
+
  
 
 ##Exercise 3
