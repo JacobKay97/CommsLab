@@ -118,12 +118,12 @@ Front panel for initial test
   * Looks a bit weird, would break envelope detector
   
   
-Mu = 0.5
+**Mu = 0.5**
 ![Exercise 1.3a](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.3a.png)
-Mu = 1.0+
-![Exercise 1.3b](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.3b.png)
-Mu = 1.5
-![Exercise 1.3c](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.3c.png)
+**Mu = 1.0+**
+![Exercise 1.3b](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.3b.PNG)
+**Mu = 1.5**
+![Exercise 1.3c](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.3c.PNG)
 
 
 ####Changing message frequency
