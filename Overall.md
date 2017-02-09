@@ -12,7 +12,7 @@
 
 ##Exercise 2
 
-###Implementation of CLT 
+###Implementation of CLT
 
  * Nested for Loop, inside while loop
  * Inner for loop generates a random number which is summed up
@@ -26,16 +26,23 @@
   * This ensures the data is transferred from one iteration to the other and the array grows
  * Tested with 10 milliseconds to wait, and 100 bins
 
+
+###Tasks
+
+
 ![Exercise 2.1](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.1.png)
 
+Original block diagram
 
-####Tasks
 
  * Control to stop afer 1000 iterations was added by using a => block comparing the while loop count with a constant of 1000 and feeding that into the stop condition.
 
 ![Exercise 2.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.2.png)
-![Exercise 2.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.2.png)
 
+Stop after 1000 iterations block diagram 
+
+####Revising so output is a standardised normal distribution
+ 
  * To convert into a standard normal distribution: N(0, 1), the equation below was used
 
 ![Equation 1](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/eq1.png)
@@ -53,6 +60,9 @@
  
 ![Exercise 2.3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.3.png)
 
+Block diagram after the change
+
+
 
 ##Exercise 3
 
@@ -60,18 +70,28 @@
  * Wired up three sine waves, and added them up
   * FFT PSD module
   * Two adder blocks, as extending one adder block to do three gave me an error
-  * Filter added
+   *  
+  * Filter added with controls
+ * Creating graphs from the panel view was a new concept
+  * Very useful
+
+###Tasks
 
 ![Exercise 3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.1.png)
-
+Block Diagram
 ![Exercise 3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.2.png)
+Front panel with all requested waveforms 
 
+####Chaging filter parameters 
 
  * Filter changed to a bandpass filter with cut off frequencies of 25 and 35
  * This let mostly only the sine wave at 30Hz through
  * Along with a transient of course.
+ * This works because its both a high pass and low pass filter
  
 ![Exercise 3.3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.3.png)
+Front Panel for bandpass filter
+
 
 #Lab 2
 
