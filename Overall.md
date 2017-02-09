@@ -101,23 +101,44 @@ Front Panel for bandpass filter
  * Created AM signal
  * Obeyed the equation given in the notes
  * PSD of modulated signal had two sidebands
+ * Also turned it into a Sub-VI
+ 
+###Tasks
 
+Block diagram for AM modulation
+![Exercise 1.1](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.1.png)
+Front panel for initial test
+![Exercise 1.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.2.png)
 
-###Ex1.1.png block diagram
-###ex1.2 png plot
+####A_c = 2 and changing A_m for varying mu
 
  * Changing AM to give mu of {.5, 1, 1.5} 
  * Increasing mu changes the AM signal
-  * at 1 the modulated signal's lowest point is 0, however going being that leads to the message signal being bigger than the carrier and losing some of the data 
-  * Aliasing
+  * at 1 the modulated signal's lowest point is 0, however going being that leads to the message signal being bigger than the carrier
+  * Looks a bit weird, would break envelope detector
+  
+  
+Mu = 0.5
+![Exercise 1.3a](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.3a.png)
+Mu = 1.0+
+![Exercise 1.3b](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.3b.png)
+Mu = 1.5
+![Exercise 1.3c](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.3c.png)
 
-###ex1.3a/b/c - think harder too
 
+####Changing message frequency
+ 
  * Changing message frequency as {1k, 2k, 5k}
  * Aliasing as message frequency approaches carrier frequency
   * Technically carrier is sampling the message, reaching Nyquist frequency
+  * Loss of information - unable to get full information back
 
-###ex1.4a/b/c - make some more notes twat
+1kHz
+![Exercise 1.4a](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.4a.png)
+2kHz
+![Exercise 1.4b](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.4b.png)
+5kHz
+![Exercise 1.4c](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.4c.png)
 
 
 ##Exercise 2
@@ -137,6 +158,7 @@ Front Panel for bandpass filter
 
  * Made envelope detector
  * Hopefully it works
+   * Aliasing
  * Needed to pass through all the waveform properties from Waveform Properties to Build Waveform
  
 
