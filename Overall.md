@@ -8,6 +8,7 @@
  * Got average of whole array (each letter converted to one element of byte array)  
  * Got to understand the UI
 
+Block diagram and front panel for exercise 1 with my surname as input
 ![Exercise 1](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex1.png)
 
 ##Exercise 2
@@ -30,16 +31,16 @@
 ###Tasks
 
 
+Original block diagram
 ![Exercise 2.1](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.1.png)
 
-Original block diagram
 
 
  * Control to stop afer 1000 iterations was added by using a => block comparing the while loop count with a constant of 1000 and feeding that into the stop condition.
 
-![Exercise 2.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.2.png)
 
 Stop after 1000 iterations block diagram 
+![Exercise 2.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.2.png)
 
 ####Revising so output is a standardised normal distribution
  
@@ -58,9 +59,8 @@ Stop after 1000 iterations block diagram
  * This was implemeneted by subtracting 0.5 from the sample mean, then dividing by the population standard dev. (above) divided by SQRT(n) (where n is 100)
  * The rest of the code was not changed
  
+ Block diagram after the change
 ![Exercise 2.3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.3.png)
-
-Block diagram after the change
 
 
 
@@ -77,10 +77,10 @@ Block diagram after the change
 
 ###Tasks
 
-![Exercise 3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.1.png)
 Block Diagram
-![Exercise 3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.2.png)
+![Exercise 3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.1.png)
 Front panel with all requested waveforms 
+![Exercise 3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.2.png)
 
 ####Chaging filter parameters 
 
@@ -89,8 +89,9 @@ Front panel with all requested waveforms
  * Along with a transient of course.
  * This works because its both a high pass and low pass filter
  
-![Exercise 3.3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.3.png)
 Front Panel for bandpass filter
+![Exercise 3.3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.3.png)
+
 
 
 #Lab 2
