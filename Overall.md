@@ -62,15 +62,16 @@
   * Two adder blocks, as extending one adder block to do three gave me an error
   * Filter added
 
-####EX3.1 and .2 images
+![Exercise 3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.1.png)
+
+![Exercise 3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.2.png)
 
 
  * Filter changed to a bandpass filter with cut off frequencies of 25 and 35
  * This let mostly only the sine wave at 30Hz through
  * Along with a transient of course.
  
-####Ex3.3.png
-
+![Exercise 3.3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.3.png)
 
 #Lab 2
 
