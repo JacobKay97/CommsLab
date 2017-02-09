@@ -8,7 +8,7 @@
  * Got average of whole array (each letter converted to one element of byte array)  
  * Got to understand the UI
 
-Block diagram and front panel for exercise 1 with my surname as input
+**Block diagram and front panel for exercise 1 with my surname as input**
 ![Exercise 1](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex1.png)
 
 ##Exercise 2
@@ -31,7 +31,7 @@ Block diagram and front panel for exercise 1 with my surname as input
 ###Tasks
 
 
-Original block diagram
+**Original block diagram**
 ![Exercise 2.1](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.1.png)
 
 
@@ -39,7 +39,7 @@ Original block diagram
  * Control to stop afer 1000 iterations was added by using a => block comparing the while loop count with a constant of 1000 and feeding that into the stop condition.
 
 
-Stop after 1000 iterations block diagram 
+**Stop after 1000 iterations block diagram**
 ![Exercise 2.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.2.png)
 
 ####Revising so output is a standardised normal distribution
@@ -59,7 +59,7 @@ Stop after 1000 iterations block diagram
  * This was implemeneted by subtracting 0.5 from the sample mean, then dividing by the population standard dev. (above) divided by SQRT(n) (where n is 100)
  * The rest of the code was not changed
  
- Block diagram after the change
+**Block diagram after the change**
 ![Exercise 2.3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex2.3.png)
 
 
@@ -77,9 +77,9 @@ Stop after 1000 iterations block diagram
 
 ###Tasks
 
-Block Diagram
+**Block Diagram**
 ![Exercise 3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.1.png)
-Front panel with all requested waveforms 
+**Front panel with all requested waveforms**
 ![Exercise 3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.2.png)
 
 ####Chaging filter parameters 
@@ -89,7 +89,7 @@ Front panel with all requested waveforms
  * Along with a transient of course.
  * This works because its both a high pass and low pass filter
  
-Front Panel for bandpass filter
+**Front Panel for bandpass filter**
 ![Exercise 3.3](https://github.com/JacobKay97/CommsLab/blob/master/Lab1/Ex3.3.png)
 
 
@@ -105,10 +105,10 @@ Front Panel for bandpass filter
  
 ###Tasks
 
-Block diagram for AM modulation
+**Block diagram for AM modulation**
 ![Exercise 1.1](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.1.png)
-Front panel for initial test
-![Exercise 1.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/Ex1.2.png)
+**Front panel for initial test**
+![Exercise 1.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex1.2.png)
 
 ####A_c = 2 and changing A_m for varying mu
 
@@ -133,32 +133,34 @@ Front panel for initial test
   * Technically carrier is sampling the message, reaching Nyquist frequency
   * Loss of information - unable to get full information back
 
-1kHz
+**1kHz message**
 ![Exercise 1.4a](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex1.4a.PNG)
-2kHz
+**2kHz message**
 ![Exercise 1.4b](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex1.4b.PNG)
-5kHz
+**5kHz message**
 ![Exercise 1.4c](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex1.4c.PNG)
 
 
 ##Exercise 2
 
-###Insert maths here + ex2a.png
+###Coherant Detection
+
+
 
  * Made coherant Demodulator
- * Hopefully it works
  * Scaling issues
  * Have to multiply demodulated signal by 2
   * However input carrier is not normalised, so have to divide by the amplitude of carrier
-   * Or normalise carrier, but that was more wiring
+   * Or normalise carrier, but that was more wiring so opted for passing A_c through
 
+Maths behind coherant detection
+![eq1 ](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/eq1.png)
 
-
-###Insert maths here and ex2B.pNg
+###Enevelope Detector
 
  * Made envelope detector
  * Hopefully it works
-   * Aliasing
+  * Aliasing
  * Needed to pass through all the waveform properties from Waveform Properties to Build Waveform
  
 
@@ -168,7 +170,7 @@ Front panel for initial test
  
 ###ex3.png
  
-### Changing mu
+###Changing mu
 
  * Coherant detection worked for all values 
  * Envelope detection breaks when A_m > A_c
