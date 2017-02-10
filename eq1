@@ -10,3 +10,28 @@ y(t) = \frac{1}{2}[A_{c}+m(t)]A_{c} + \frac{1}{2}[A_{c}+m(t)]cos(4 \pi f_{c} t)\
 \textup{Low pass filter removes cosine term leaving:}\\
 
 y(t) = \frac{A_{c}}{2}[A_{c}+m(t)]
+
+
+
+
+
+\frac{\mathrm{d} }{\mathrm{d} t} (A_c \cos(2 \pi f_{c} t + \theta_{m}(t))) = A_c[2 \pi  f_c  + \frac{\mathrm{d}}{\mathrm{d} t}(\, \theta_{m}(t)\, ) \, ]\sin(2 \pi f_{c} t + \theta_{m}(t)) \\
+\\
+ \theta_{m}(t)= 2 \pi k_f \int_{0}^{t} m(\tau){\mathrm{d} \tau}
+\\
+\frac{\mathrm{d} }{\mathrm{d} t}( \theta_m (t)) = \frac{\mathrm{d} }{\mathrm{d} t} (2 \pi k_f \int_{0}^{t} m(\tau){\mathrm{d} \tau}) = 2 \pi k_f m(t) \\
+
+\therefore 
+\\
+\\
+\frac{\mathrm{d} }{\mathrm{d} t} (A_c \cos(2 \pi f_{c} t + \theta_{m}(t))) = A_c[2 \pi  f_c  + 2 \pi k_f m(t)]\sin(2 \pi f_{c} t + \theta_{m}(t)) \\
+
+\\
+\textup{The envelope detector will only care about the coefficient of the sin term:}
+\\
+
+\textup{Envelope Detector} = A_c2 \pi  f_c  +  A_c 2 \pi k_f m(t)
+\\
+\textup{So DC term removed} =  A_c2 \pi  f_c
+\\ \textup{And scaling factor needed in envelope detector} = A_c 2 \pi k_f 
+\\ \textup{Can now recover FM signal}
