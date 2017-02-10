@@ -2,7 +2,8 @@
 # Comms Lab
 # Ay-05-10
 # Logbook
-
+# Link to github, it looks nicer there (check commit time)
+# https://github.com/JacobKay97/CommsLab/blob/master/overallSubmit.md
 
 # Lab 1
 ## Exercise 1
@@ -138,7 +139,7 @@
 **Mu = 0.5**
 
 ![Exercise 1.3a](https://raw.githubusercontent.com/JacobKay97/CommsLab/master/Lab2/Ex1.3a.png)
-**Mu = 1.0+**
+**Mu = 1.0**
 
 ![Exercise 1.3b](https://raw.githubusercontent.com/JacobKay97/CommsLab/master/Lab2/Ex1.3b.PNG)
 **Mu = 1.5**
