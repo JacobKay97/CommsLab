@@ -236,7 +236,7 @@
  * Does coherant demodulation
  
  
-#### Transmission of 5kHz signal
+####Transmission of 5kHz signal
 
 **Transmit panel**
 ![ex4a-tx](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex4a-tx.PNG)
@@ -244,7 +244,7 @@
 ![ex4a-rx](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex4a-rx.PNG)
 
 
-#### Noise
+####Noise
 
  * Changed modulation index
  
@@ -256,3 +256,55 @@
 ![ex4b mu 1](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex4b-rx-mu1-noise.PNG)
 **Modulation index = 5 - noisy??**
 ![ex4b mu 5](https://github.com/JacobKay97/CommsLab/blob/master/Lab2/ex4b-rx-mu5-noise.PNG)
+
+
+
+#Lab 3
+
+##Exercise 1
+
+ * Created FM modulator
+ * Basically implemented the s(t) equivalent equation directly with the blocks
+ * Didn't have any issues
+ 
+**Block Diagram for FM modulator**
+![ex1 block](https://github.com/JacobKay97/CommsLab/blob/master/Lab3/Ex1%20Block%20Diagram.PNG)
+
+ * Increased k_f (deltaf = k_f * max|m(t)| and max|m(t)| = 1) from 500 to 2000 to 5000
+ 
+**k_f = 500**
+![k_f=500](https://github.com/JacobKay97/CommsLab/blob/master/Lab3/Ex1%20Block%20Diagram.PNG)
+**k_f = 2000**
+![k_f=2000](https://github.com/JacobKay97/CommsLab/blob/master/Lab3/Ex1%20kf%20%3D%202000.PNG)
+**k_f = 5000**
+![k_f=5000](https://github.com/JacobKay97/CommsLab/blob/master/Lab3/Ex1%20kf%20%3D%205000.PNG)
+
+
+ * increasing k_f increases how much the instantaneous frequency changes with m(t)
+ * So FM is very visible when k_f = 5000
+  * at m(t)= -1, f_i = 10k-5k =5kHz
+  * at m(t)= 1, f_i = 10k+5k = 15kHz
+ * Becomes wideband
+ * PSD shows the bandwidth taken up by the FM
+ * modulation index, mu decides if narrow or wide band if mu << 1
+ * kf = 500, mu = 0.5
+  * Narrowband FM, Bandwidth approximately 2 x message bandwidth
+ * kf = 2000, 5000 mu = 2, 5
+  * Wideband FM
+  * Bandwidth approximated by 2 x delta_f (kf in this case)
+  * B approximately = 4000, 10000
+ * Can see from PSD that this is relatively accurate
+ 
+ 
+##Exercise 2
+
+ * Copied envelope detector blocks
+ * Just had to change the scaling factor
+ * Maths below
+ 
+**Maths explaining derivation of demodulator**
+![eq2](https://github.com/JacobKay97/CommsLab/blob/master/Lab3/png.png)
+ 
+ 
+**Block Diagram**
+![ex2.1](https://github.com/JacobKay97/CommsLab/blob/master/Lab3/Ex%202%20block%20diagram.PNG)
