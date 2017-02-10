@@ -328,14 +328,48 @@
  
 ##Exercise 4
 
-#CHECK THESE GRAPHS AGAIN woops
 
  * Verified carsons rule worked well
  
-**Frequency deviation of XX hertz**
+**Frequency deviation of 5kHz**
+![ex3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab3/ex4 kf5k.PNG)
 
  * Bandwidth as predicted
  
  
 #Lab 4
 
+##Exercise 1
+
+ * Made BPSK transmitter
+ * Generate random sequence of bits
+ * Scale so 0 --> -1, 1 --> +1
+  * Multiply by 2, take 1 away
+ * Add frame header
+ * Upsample
+ * Convolute with filter coefficients
+ * Scale, insert pilots, add frame header again
+ * Needs to be complex valued for USRP
+ 
+###Tasks
+
+ * L = 20
+
+
+**Block Diagram**
+![Block diagram for BPSK transmitter](https://github.com/JacobKay97/CommsLab/blob/master/Lab4/EX1%20block%20%20diagaram%20of%20my%20addition.PNG)
+
+**Root Raised cosine**
+![Root raised cosine](https://github.com/JacobKay97/CommsLab/blob/master/Lab4/Ex1.1%20root%20raised%20cosine.PNG)
+
+**Rectangular pulses**
+![Rectangular pulses](https://github.com/JacobKay97/CommsLab/blob/master/Lab4/Ex1.1%20none%20in%20pulse%20shaping%20filter.PNG)
+
+
+ * Root raised cosine rolls off a lot quicker
+ * Much smaller main lobe bandwidth (~2E-07 if the axis is correct)
+ * Rectangular pulses rolls off slower
+ * More lobes present
+ * Main lobe has very similar bandwidth
+ 
+ 
