@@ -447,7 +447,7 @@
 
 **Picture of front panel for rx=tx=0**
 
-![EX2 panel](https://raw.githubusercontent.com/JacobKay97/CommsLab/master/Lab4/Ex2%20normal.PNG)
+![EX2 panel](https://raw.githubusercontent.com/JacobKay97/CommsLab/master/Lab4/EX2%20normal.PNG)
 
 
  * Ran 5 times and got BER average for various rx tx
