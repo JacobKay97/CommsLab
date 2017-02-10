@@ -367,9 +367,31 @@
 
 
  * Root raised cosine rolls off a lot quicker
- * Much smaller main lobe bandwidth (~2E-07 if the axis is correct)
+ * Main lobe bandwidth ~10kHz
  * Rectangular pulses rolls off slower
  * More lobes present
  * Main lobe has very similar bandwidth
  
+ 
+ 
+##Exercise 2 
+
+ * Made reciever
+ * Basically followed the instructions in the notes
+ * number of samples into reciever = message bits * L * arbitrary number because reciever doesn't always start at correct point
+ * Getting BER of 0 - very good
+ 
+**Block diagram of reciever**
+
+**Picture of front panel for rx=tx=0**
+
+
+ * Ran 5 times and got BER average for various rx tx
+ 
+| Tx Gain (dB) | Rx Gain (dB) | Average BER |
+| --- | --- | --- |
+| 0 | 0 | 0 |
+| -35 | -15 | 0.172711|
+| -37 | -15 | 0.231933 |
+| -40 | -15 | 0.312612 |
  
