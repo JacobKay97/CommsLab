@@ -308,3 +308,34 @@
  
 **Block Diagram**
 ![ex2.1](https://github.com/JacobKay97/CommsLab/blob/master/Lab3/Ex%202%20block%20diagram.PNG)
+
+
+##Exercise 3
+
+ * Created FM simulation
+ * Wired up modulator with demodulator 
+ * Worked well
+ 
+**Block Diagram**
+![ex3.a](https://github.com/JacobKay97/CommsLab/blob/master/Lab3/Ex%203%20block%20diagram.PNG)
+
+**Front panel with required input**
+![ex3.1](https://github.com/JacobKay97/CommsLab/blob/master/Lab3/EX3%20graphs%201.PNG)
+**Front panel zoomed in on demodulated(t) graph**
+![ex3.2](https://github.com/JacobKay97/CommsLab/blob/master/Lab3/EX3%20graphs%202.PNG)
+
+ * Scaling was done correctly, FM worked
+ 
+##Exercise 4
+
+#CHECK THESE GRAPHS AGAIN woops
+
+ * Verified carsons rule worked well
+ 
+**Frequency deviation of XX hertz**
+
+ * Bandwidth as predicted
+ 
+ 
+#Lab 4
+
