@@ -4,6 +4,22 @@
 # Logbook
 # Link to github, it looks nicer there (check commit time)
 # https://github.com/JacobKay97/CommsLab/blob/master/overallSubmit.md
+# .
+# .
+# .
+# .
+# .
+# .
+# .
+# .
+# .
+# .
+# .
+# .
+
+
+
+_______
 
 # Lab 1
 ## Exercise 1
@@ -109,6 +125,7 @@
 ![Exercise 3.3](https://raw.githubusercontent.com/JacobKay97/CommsLab/master/Lab1/Ex3.3.png)
 
 
+_______
 
 # Lab 2
 
@@ -304,6 +321,8 @@
 
 
 
+_______
+
 # Lab 3
 
 ## Exercise 1
@@ -393,6 +412,9 @@
 ![ex3.2](https://raw.githubusercontent.com/JacobKay97/CommsLab/master/Lab3/ex4 kf5k.PNG)
 
  * Bandwidth as predicted ~ 12kHz
+
+
+ _______
 
 
 # Lab 4
