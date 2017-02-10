@@ -367,7 +367,7 @@
 
 
  * Root raised cosine rolls off a lot quicker
- * Main lobe bandwidth ~10kHz
+ * Main lobe bandwidth ~2E-7
  * Rectangular pulses rolls off slower
  * More lobes present
  * Main lobe has very similar bandwidth
@@ -382,8 +382,9 @@
  * Getting BER of 0 - very good
  
 **Block diagram of reciever**
-
+![EX2 block](https://github.com/JacobKay97/CommsLab/blob/master/Lab4/Ex2%20block.PNG)
 **Picture of front panel for rx=tx=0**
+![EX2 panel](https://github.com/JacobKay97/CommsLab/blob/master/Lab4/Ex2%20normal.PNG)
 
 
  * Ran 5 times and got BER average for various rx tx
@@ -394,4 +395,31 @@
 | -35 | -15 | 0.172711|
 | -37 | -15 | 0.231933 |
 | -40 | -15 | 0.312612 |
- 
+
+
+##Exercise 3
+
+ * used basic ECC
+ * Tripled bits using build array
+ * FEC
+
+
+| Tx Gain (dB) | Rx Gain (dB) | Average BER |
+| --- | --- | --- |
+| 0 | 0 | 0 |
+| -35 | -15 | 0.134 |
+| -37 | -15 | 0.1998 |
+| -40 | -15 | 0.4346 |
+
+
+ * Some improvement in BER
+ * Issues out of my control
+ * I don't think its syncing the frame correctly
+ * Issues with the reciever triggering at the correct time
+ * Hence I don't think my BER values are reliable
+ * Would have preffered to build decoder for this
+
+##Exercise 4
+
+ * Kind of ran out of time to do it
+ * I have ideas of how to do it
